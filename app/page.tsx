@@ -133,12 +133,7 @@ export default function Home() {
 
                 <div className="space-y-4">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                      Open to relocation
-                    </div>
-                    <span className="hidden sm:inline">·</span>
-                    <div>Valencia, Spain</div>
+                    <div>Based: Valencia, Spain</div>
                     <span className="hidden sm:inline">·</span>
                     <button
                       onClick={() => {
@@ -168,11 +163,15 @@ export default function Home() {
                 <div className="text-sm text-muted-foreground font-mono">CURRENTLY</div>
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
-                    <img src="https://www.idealista.com/favicon.ico" alt="Idealista" className="w-5 h-5 rounded-full" />
-                    <div className="text-foreground">Product Guy</div>
+                    <img
+                      src="https://www.thepowerplugin.com/favicon.svg"
+                      alt="The Power Plugin"
+                      className="w-5 h-5 rounded-full"
+                    />
+                    <div className="text-foreground">CPTO</div>
                   </div>
-                  <div className="text-muted-foreground">@ Idealista (Unicorn)</div>
-                  <div className="text-xs text-muted-foreground">Jun 2023 — Present</div>
+                  <div className="text-muted-foreground">@ The Power Plugin</div>
+                  <div className="text-xs text-muted-foreground">May 2026 — Present</div>
                 </div>
               </div>
 
@@ -204,10 +203,34 @@ export default function Home() {
           <div className="space-y-12 sm:space-y-16">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
               <h2 className="text-3xl sm:text-4xl font-light">Experience</h2>
-              <div className="text-sm text-muted-foreground font-mono">2013 — 2025</div>
+              <div className="text-sm text-muted-foreground font-mono">2013 — Present</div>
             </div>
 
             <div className="space-y-8 sm:space-y-12">
+              {/* The Power Plugin — CPTO */}
+              <div className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500">
+                <div className="lg:col-span-2">
+                  <div className="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500">
+                    2026
+                  </div>
+                </div>
+                <div className="lg:col-span-6 space-y-3">
+                  <div>
+                    <h3 className="text-lg sm:text-xl font-medium">CPTO</h3>
+                    <div className="text-muted-foreground">The Power Plugin</div>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed max-w-lg">
+                    Leading product and technology at the first marketing and engagement tool that lets gaming and
+                    betting operators reward customers through sports memorabilia collection.
+                  </p>
+                </div>
+                <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
+                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Product & Tech Leadership</span>
+                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Gaming</span>
+                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Engagement</span>
+                </div>
+              </div>
+
               {/* Idealista */}
               <div className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500">
                 <div className="lg:col-span-2">
@@ -478,6 +501,76 @@ export default function Home() {
 
             <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
               <Link
+                href="https://medium.com/@carlosbeneyto/squads-are-dying-long-live-owners-4915f2869279"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 sm:p-8 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-500 hover:shadow-lg cursor-pointer"
+              >
+                <article className="space-y-4">
+                  <div className="flex items-center justify-between text-xs text-muted-foreground font-mono">
+                    <span>Sep 2026</span>
+                    <span>6 min</span>
+                  </div>
+
+                  <h3 className="text-lg sm:text-xl font-medium group-hover:text-muted-foreground transition-colors duration-300">
+                    Squads are dying. Long live owners.
+                  </h3>
+
+                  <p className="text-muted-foreground leading-relaxed">
+                    AI is blurring the lines between Product, Design, and Engineering. The future is not about adding
+                    more specialists to the process, but about giving more ownership to fewer people.
+                  </p>
+
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                    <span>Read more</span>
+                    <svg
+                      className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </article>
+              </Link>
+
+              <Link
+                href="https://medium.com/@carlosbeneyto/the-product-manager-is-dead-welcome-to-the-x10-pm-db76858dcad3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 sm:p-8 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-500 hover:shadow-lg cursor-pointer"
+              >
+                <article className="space-y-4">
+                  <div className="flex items-center justify-between text-xs text-muted-foreground font-mono">
+                    <span>Feb 2026</span>
+                    <span>5 min</span>
+                  </div>
+
+                  <h3 className="text-lg sm:text-xl font-medium group-hover:text-muted-foreground transition-colors duration-300">
+                    The Product Manager is dead. Welcome to the x10 PM.
+                  </h3>
+
+                  <p className="text-muted-foreground leading-relaxed">
+                    Yes. No anesthesia. The Product Manager who only manages backlog, writes user stories, and
+                    coordinates teams… is starting to become obsolete.
+                  </p>
+
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                    <span>Read more</span>
+                    <svg
+                      className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </article>
+              </Link>
+
+              <Link
                 href="https://medium.com/@carlosbeneyto/meetings-dont-build-products-decisions-do-a9284e6a55a8"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -723,7 +816,7 @@ export default function Home() {
         <footer className="py-12 sm:py-16 border-t border-border">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
-              <div className="text-sm text-muted-foreground">© 2025 Carlos Beneyto. All rights reserved.</div>
+              <div className="text-sm text-muted-foreground">© 2026 Carlos Beneyto. All rights reserved.</div>
               <div className="text-xs text-muted-foreground">Built with v0 by Vercel</div>
             </div>
 

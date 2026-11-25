@@ -11,16 +11,18 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Carlos Beneyto | Product Guy at Idealista | Product Leader & Entrepreneur",
+    default: "Carlos Beneyto | CPTO at The Power Plugin | Product Leader & Entrepreneur",
     template: "%s | Carlos Beneyto",
   },
   description:
-    "Product Leader with 10+ years building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and SaaS. Currently Product Guy at Idealista, Spain's leading real estate platform.",
+    "Product Leader with 10+ years building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and SaaS. Currently CPTO at The Power Plugin.",
   keywords: [
     "Carlos Beneyto",
     "Product Leader",
-    "Product Guy",
+    "CPTO",
+    "Chief Product & Technology Officer",
     "Product Manager",
+    "The Power Plugin",
     "Idealista",
     "Edify",
     "Product Strategy",
@@ -58,7 +60,7 @@ export const metadata: Metadata = {
     type: "profile",
     locale: "en_US",
     url: "https://carlosbeneyto.com",
-    title: "Carlos Beneyto | Product Guy at Idealista | Product Leader",
+    title: "Carlos Beneyto | CPTO at The Power Plugin | Product Leader",
     description:
       "Product Leader with 10+ years building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, and AI.",
     siteName: "Carlos Beneyto - Product Leader",
@@ -76,7 +78,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Carlos Beneyto | Product Guy at Idealista",
+    title: "Carlos Beneyto | CPTO at The Power Plugin",
     description:
       "Product Leader with 10+ years building innovative tech products. Expert in Product Strategy, Growth, Metrics, and AI.",
     creator: "@carlosbeneyto",
@@ -125,12 +127,13 @@ export default function RootLayout({
                 "https://medium.com/@carlosbeneyto",
                 "https://carlosbeneyto.com",
               ],
-              jobTitle: "Product Guy",
+              jobTitle: "Chief Product & Technology Officer",
               worksFor: {
                 "@type": "Organization",
-                name: "Idealista",
-                url: "https://www.idealista.com",
-                description: "Spain's leading real estate platform",
+                name: "The Power Plugin",
+                url: "https://www.thepowerplugin.com",
+                description:
+                  "Marketing and engagement tool for gaming and betting operators to reward customers through sports memorabilia collection",
               },
               alumniOf: [
                 {
@@ -155,7 +158,7 @@ export default function RootLayout({
               hasOccupation: [
                 {
                   "@type": "Occupation",
-                  name: "Product Guy",
+                  name: "Chief Product & Technology Officer",
                   occupationLocation: {
                     "@type": "City",
                     name: "Valencia",
@@ -165,8 +168,8 @@ export default function RootLayout({
                     },
                   },
                   description:
-                    "Leading product strategy and development at Idealista, Spain's leading real estate platform",
-                  startDate: "2023-06",
+                    "Leading product and technology at The Power Plugin",
+                  startDate: "2026-05",
                 },
               ],
               description:
@@ -192,7 +195,7 @@ export default function RootLayout({
               "@id": "https://carlosbeneyto.com#website",
               url: "https://carlosbeneyto.com",
               name: "Carlos Beneyto - Product Leader",
-              description: "Personal portfolio and blog of Carlos Beneyto, Product Leader at Idealista",
+              description: "Personal portfolio and blog of Carlos Beneyto, CPTO at The Power Plugin",
               author: {
                 "@id": "https://carlosbeneyto.com#person",
               },
@@ -213,7 +216,7 @@ export default function RootLayout({
               url: "https://carlosbeneyto.com",
               name: "Carlos Beneyto - Professional Profile",
               description:
-                "Professional profile of Carlos Beneyto, Product Guy at Idealista and experienced product leader",
+                "Professional profile of Carlos Beneyto, CPTO at The Power Plugin and experienced product leader",
             }),
           }}
         />
