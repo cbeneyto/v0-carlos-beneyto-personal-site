@@ -136,7 +136,7 @@ export default function RootLayout({
                 name: "The Power Plugin",
                 url: "https://www.thepowerplugin.com",
                 description:
-                  "Marketing and engagement tool for gaming and betting operators to reward customers through sports memorabilia collection",
+                  "Loyalty, rewards and fulfillment infrastructure: software, 100K+ rewards and worldwide delivery in one platform",
               },
               alumniOf: [
                 {

@@ -233,14 +233,15 @@ export default function HomePage({ yearsOfExperience }: { yearsOfExperience: num
                     <div className="text-muted-foreground">The Power Plugin</div>
                   </div>
                   <p className="text-muted-foreground leading-relaxed max-w-lg">
-                    Leading product and technology at the first marketing and engagement tool that lets gaming and
-                    betting operators reward customers through sports memorabilia collection.
+                    Leading product and technology at The Power Plugin, the loyalty infrastructure that brings software,
+                    rewards and fulfillment into one platform: branded reward stores, rules, minigames and an API, with
+                    100K+ rewards delivered to 50+ countries.
                   </p>
                 </div>
                 <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
                   <span className="px-2 py-1 text-xs text-muted-foreground rounded">Product & Tech Leadership</span>
-                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Gaming</span>
-                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Engagement</span>
+                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Loyalty Tech</span>
+                  <span className="px-2 py-1 text-xs text-muted-foreground rounded">Rewards & Fulfillment</span>
                 </div>
               </div>
 
