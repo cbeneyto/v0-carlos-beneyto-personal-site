@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist } from "next/font/google"
 import "./globals.css"
+import { getYearsOfExperience } from "@/lib/experience"
 
 const geist = Geist({
   subsets: ["latin"],
@@ -9,13 +10,15 @@ const geist = Geist({
   variable: "--font-geist",
 })
 
+const years = `${getYearsOfExperience()}+ years`
+
 export const metadata: Metadata = {
   title: {
     default: "Carlos Beneyto | CPTO at The Power Plugin | Product Leader & Entrepreneur",
     template: "%s | Carlos Beneyto",
   },
   description:
-    "Product Leader with 10+ years building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and SaaS. Currently CPTO at The Power Plugin.",
+    `Product Leader with ${years} building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and SaaS. Currently CPTO at The Power Plugin.`,
   keywords: [
     "Carlos Beneyto",
     "Product Leader",
@@ -62,14 +65,14 @@ export const metadata: Metadata = {
     url: "https://carlosbeneyto.com",
     title: "Carlos Beneyto | CPTO at The Power Plugin | Product Leader",
     description:
-      "Product Leader with 10+ years building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, and AI.",
+      `Product Leader with ${years} building innovative tech products. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, and AI.`,
     siteName: "Carlos Beneyto - Product Leader",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Carlos Beneyto - Product Leader with 10+ years driving tech, design, and business growth",
+        alt: `Carlos Beneyto - Product Leader with ${years} driving tech, design, and business growth`,
       },
     ],
     firstName: "Carlos",
@@ -80,7 +83,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Carlos Beneyto | CPTO at The Power Plugin",
     description:
-      "Product Leader with 10+ years building innovative tech products. Expert in Product Strategy, Growth, Metrics, and AI.",
+      `Product Leader with ${years} building innovative tech products. Expert in Product Strategy, Growth, Metrics, and AI.`,
     creator: "@carlosbeneyto",
     site: "@carlosbeneyto",
     images: ["/og-image.jpg"],
@@ -173,7 +176,7 @@ export default function RootLayout({
                 },
               ],
               description:
-                "Product Leader with 10+ years of experience building innovative tech products across real estate, fintech, and SaaS. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and creating user-centered products that drive business results.",
+                `Product Leader with ${years} of experience building innovative tech products across real estate, fintech, and SaaS. Former founder of Edify (Acquired). Expert in Product Strategy, Growth, Metrics, AI, and creating user-centered products that drive business results.`,
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Valencia",
