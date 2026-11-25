@@ -832,7 +832,6 @@ export default function HomePage({ yearsOfExperience }: { yearsOfExperience: num
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© 2026 Carlos Beneyto. All rights reserved.</div>
               <div className="text-xs text-muted-foreground">
-                Built with v0 by Vercel ·{" "}
                 <a
                   href="/bio/carlos-beneyto-bio.pdf"
                   download
