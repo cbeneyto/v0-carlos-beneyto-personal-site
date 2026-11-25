@@ -831,7 +831,17 @@ export default function HomePage({ yearsOfExperience }: { yearsOfExperience: num
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© 2026 Carlos Beneyto. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with v0 by Vercel</div>
+              <div className="text-xs text-muted-foreground">
+                Built with v0 by Vercel ·{" "}
+                <a
+                  href="/bio/carlos-beneyto-bio.pdf"
+                  download
+                  rel="nofollow"
+                  className="hover:text-foreground underline-offset-4 hover:underline transition-colors duration-300"
+                >
+                  Bio (PDF)
+                </a>
+              </div>
             </div>
 
             <div className="flex items-center gap-4">
